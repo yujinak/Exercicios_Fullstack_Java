@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css
+    "
+    />
+    <style>
+      header {
+        text-align: center;
+        margin-bottom: 46px;
+        background-color: rgb(169, 193, 193);
+      }
+
+      body {
+        background-color: rgb(169, 193, 193);
+      }
+      form {
+        padding: 50px;
+        text-align: center;
+        background-color: rgb(234, 234, 234);
+      }
+
+      .form-control,
+      .form-label {
+        margin: 0 auto;
+      }
+
+      .form-control {
+        margin-bottom: 25px;
+        width: 50%;
+      }
+      .form-check {
+        display: flex;
+        justify-content: center;
+      }
+      .form-check-label,
+      form-check-input {
+        margin-left: 12px;
+      }
+
+      button {
+        margin: 0 0 46px 12px;
+        margin-bottom: 46px;
+      }
+    </style>
+
+    <title>Formulário Bootstrap</title>
+  </head>
+
+  <header>
+    <h1>Formulário Bootstrap</h1>
+    <h4>Exercício do módulo 12</h4>
+  </header>
+  <body>
+    <form>
+      <h3 class="h5">Insira as informações abaixo</h3>
+      <div class="campo">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" id="nome" class="form-control" />
+      </div>
+      <div class="campo">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" class="form-control" />
+      </div>
+      <div class="campo">
+        <label for="telefone" class="form-label">Telefone</label>
+        <input type="tel" id="telefone" class="form-control" />
+      </div>
+      <div class="form-check form-switch">
+        <input type="checkbox" class="form-check-input" />
+        <label for="termos" class="form-check-label"
+          >Aceito os <a href="#">Termos e Condições</a></label
+        >
+        <button type="submit" class="btn btn-outline-success btn-sm">
+          Enviar
+        </button>
+      </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js
+    "></script>
+  </body>
+</html>
